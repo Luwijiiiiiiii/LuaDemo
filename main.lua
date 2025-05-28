@@ -165,7 +165,7 @@ function love.keypressed(key)
 end
 
 function love.keyreleased(key)
-    if key == "w" thenS
+    if key == "w" then
         leftUp = false
     elseif key == "s" then
         leftDown = false
